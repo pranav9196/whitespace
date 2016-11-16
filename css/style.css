@@ -59,6 +59,7 @@ input:hover{
 	font-size: 14px;
 	letter-spacing: 0.6px;
 	color: #8f8888;
+	width: 100px;
 }
 
 .search_container{
@@ -71,7 +72,7 @@ input:hover{
 }
 
 .search_icon{
-	padding-right: 15px;
+	margin: 0 20px;
 }
 
 .title{
@@ -175,7 +176,7 @@ input:hover{
 }
 
 .collection{
-	margin-top: 100px;
+	margin-top: 20px;
 	padding: 70px;
 }
 
@@ -364,7 +365,7 @@ fieldset, label { margin: 0; padding: 0; }
 }
 
 .img_card1{
-	box-shadow: 0 2px 20px rgba(0,0,0,0.15), 0 5px 05px rgba(0,0,0,0.12);
+	box-shadow: 0 2px 20px rgba(0,0,0,0.25), 0 5px 05px rgba(0,0,0,0.22);
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	height: 280px;
 	position: relative;
@@ -376,7 +377,10 @@ fieldset, label { margin: 0; padding: 0; }
 .textwhite{
 	color: #fff;
 }
+.btn_white:hover{
+		box-shadow: 0 16px 32px rgba(146,86,110,0.25), 0 7px 15px rgba(146,86,110,0.22);
 
+}
 .btn_white{
 	border-radius: 50px;
 	width: 70%;
@@ -384,5 +388,80 @@ fieldset, label { margin: 0; padding: 0; }
 	color: #92566E;
 	margin: 30px;
 	font-weight: 800;
-	box-shadow: 0 12px 28px rgba(146,86,110,0.25), 0 5px 10px rgba(146,86,110,0.12);
+	position: relative;
+	box-shadow: 0 12px 28px rgba(146,86,110,0.25), 0 5px 10px rgba(146,86,110,0.22);
+}
+
+.dark_pink:hover{
+	box-shadow: 0 16px 35px rgba(195,63,66,0.25), 0 7px 15px rgba(195,63,66,0.22);
+}
+
+.dark_pink{
+	color: #c33f42;
+	box-shadow: 0 12px 28px rgba(195,63,66,0.25), 0 5px 10px rgba(195,63,66,0.22);
+}
+.dark_blue:hover{
+	box-shadow: 0 16px 30px rgba(10,99,116,0.25), 0 7px 15px rgba(10,99,116,0.22);
+}
+.dark_blue{
+	color: #0a6374;
+		box-shadow: 0 12px 28px rgba(10,99,116,0.25), 0 5px 10px rgba(10,99,116,0.22);
+	
+}
+
+/*images*/
+.img1{
+	background: url("../imgs/big.jpg")  center ;
+	background-size: 175px 280px;
+	background-repeat: no-repeat;
+}
+
+.img2{
+	background: url("../imgs/ten.jpg")  center ;	
+	background-size: 175px 280px;
+	background-repeat: no-repeat;
+}
+
+.img3{
+	background: url("../imgs/four.jpg")  center ;	
+	background-size: 175px 280px;
+	background-repeat: no-repeat;
+}
+
+.img11{
+	background: url("../imgs/act.jpg")  center ;
+}
+
+
+.img22{
+	background: url("../imgs/alex.jpg")  center ;
+}
+
+
+.img33{
+	background: url("../imgs/alone.jpg")  center ;
+}
+
+
+.img44{
+	background: url("../imgs/dark.jpg")  center ;
+}
+
+
+.img55{
+	background: url("../imgs/four.jpg")  center ;
+}
+
+
+.img66{
+	background: url("../imgs/ola.jpg")  center ;
+}
+
+.img_size{
+	background-size: 145px 200px;
+}
+
+.btn-group.open .dropdown-toggle{
+	background: transparent !important;
+	box-shadow: none !important; 
 }
