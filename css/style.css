@@ -1,0 +1,132 @@
+body{
+	background: #f2f5f7;
+	color: #333333;
+	font-family: 'Muli', sans-serif;
+	overflow-x: hidden;
+
+}
+
+header{
+	padding: 20px 35px 10px 35px ;
+	background: #fff;
+}
+
+input{
+	border:none;
+}
+
+input:focus,
+input:active,
+input:hover{
+	
+	box-shadow: none;
+	outline: none;
+}
+
+.btn-group-fix{
+	vertical-align: 0 !important;
+}
+
+.dropdown_button{
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	color:#8f8888;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	border-right: 1px solid #e4e4e4;
+	border-radius: 0;
+}
+
+.dropdown_button:hover,
+.dropdown_button:focus,
+.dropdown_button:active,
+.dropdown_button:link{
+	background: transparent !important;
+	border-right: 1px solid #cac1c1;
+	box-shadow: none;
+	color: #727272;
+
+}
+
+.dropdown_caret{
+	margin:0 25px 0 10px;
+	font-size: 9px;
+}
+
+.search_placeholder{
+	font-size: 14px;
+	letter-spacing: 0.6px;
+	color: #8f8888;
+}
+
+.search_container{
+	padding-top:  6px;
+	color: #8f8888;
+}
+
+.search_container>div{
+	display: inline-block;
+}
+
+.search_icon{
+	padding-right: 15px;
+}
+
+.title{
+	margin-top:0;
+	margin-bottom:0;
+	color: #727272;
+}
+
+
+.profile_image{
+	border-radius: 50px;
+	width: 35px;
+	height:35px;
+	background: #e4e4e4;
+	position: relative;
+	margin-right: 20px;
+}
+
+.image_badge{
+	position: absolute;
+	right: 0;
+	border-radius: 50px; 
+}
+
+.dropdown_button1{
+	border-left: 1px solid #e4e4e4;
+	border-right:  none;
+	padding-left: 20px;
+}
+
+.dropdown_button1:hover,
+.dropdown_button1:active,
+.dropdown_button1:focus{
+	border-left: 1px solid #e4e4e4;
+	
+}
+.dropdown_button1:hover,
+.dropdown_button1:active,
+.dropdown_button1:focus{
+	border-right:  none;
+}
+
+.menu_container>div{
+	display: inline-block;
+}
+
+/*carousel*/
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+
+.carousel_container{
+	padding:0;
+	margin-bottom: 0;
+	border: 0;
+	border-radius: 0;
+}
