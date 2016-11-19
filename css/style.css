@@ -118,7 +118,7 @@ input:hover{
 
 .menu_container{
 	position: relative;
-    top: -4px
+	top: -4px
 }
 
 .menu_container>div{
@@ -126,7 +126,7 @@ input:hover{
 }
 
 /*carousel*/
-.carousel-inner.onebyone-carosel {margin: auto;width: 100%;height: 321px;}
+.carousel-inner.onebyone-carosel {margin: auto;width: 100%;height: 320px;}
 .onebyone-carosel .active.left { left: -33.33%; }
 .onebyone-carosel .active.right { left: 33.33%; }
 .onebyone-carosel .next { left: 33.33%; }
@@ -142,25 +142,25 @@ input:hover{
 
 .carousel_control1{
 	border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    position: absolute;
-    top: 50%;
-    height: 50px;
-    margin-top: -50px;
-    left: 50px;
-    background-image: none !important;
-    opacity: 1 !important;
-    line-height: 46px;
-    	 box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);	
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	height: 50px;
+	margin-top: -50px;
+	left: 50px;
+	background-image: none !important;
+	opacity: 1 !important;
+	line-height: 46px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);	
 
 }
 
 .carousel_control2{	
-    right: 50px !important;
-    left: 0;
-    	 box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);	
+	right: 50px !important;
+	left: 0;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);	
 
 }
 
@@ -172,7 +172,7 @@ input:hover{
 }
 
 .heading3{
-	    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .collection{
@@ -192,7 +192,7 @@ input:hover{
 	height: 35px;
 	border-radius: 50px;
 	background: #fff;
-	 box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);	
+	box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);	
 }
 
 .name{
@@ -264,8 +264,8 @@ fieldset, label { margin: 0; padding: 0; }
 /****** Style Star Rating Widget *****/
 
 .rating { 
-  border: none;
-  float: left;
+	border: none;
+	float: left;
 
 }
 
@@ -275,21 +275,21 @@ fieldset, label { margin: 0; padding: 0; }
 
 .rating > input { display: none; } 
 .rating > label:before { 
-  margin: 5px;
-  font-size: 0.6em;
-  font-family: FontAwesome;
-  display: inline-block;
-  content: "\f005";
+	margin: 5px;
+	font-size: 0.6em;
+	font-family: FontAwesome;
+	display: inline-block;
+	content: "\f005";
 }
 
 .rating > .half:before { 
-  content: "\f089";
-  position: absolute;
+	content: "\f089";
+	position: absolute;
 }
 
 .rating > label { 
-  color: #ddd; 
- float: right; 
+	color: #ddd; 
+	float: right; 
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/
@@ -333,8 +333,8 @@ fieldset, label { margin: 0; padding: 0; }
 	font-size: 11px;
 	line-height: 5;
 	position: relative;
-    top: -4px;
-    margin-left: 5px;
+	top: -4px;
+	margin-left: 5px;
 }
 
 .rectangular{
@@ -378,7 +378,7 @@ fieldset, label { margin: 0; padding: 0; }
 	color: #fff;
 }
 .btn_white:hover{
-		box-shadow: 0 16px 32px rgba(146,86,110,0.25), 0 7px 15px rgba(146,86,110,0.22);
+	box-shadow: 0 16px 32px rgba(146,86,110,0.25), 0 7px 15px rgba(146,86,110,0.22);
 
 }
 .btn_white{
@@ -405,26 +405,26 @@ fieldset, label { margin: 0; padding: 0; }
 }
 .dark_blue{
 	color: #0a6374;
-		box-shadow: 0 12px 28px rgba(10,99,116,0.25), 0 5px 10px rgba(10,99,116,0.22);
+	box-shadow: 0 12px 28px rgba(10,99,116,0.25), 0 5px 10px rgba(10,99,116,0.22);
 	
 }
 
 /*images*/
 .img1{
 	background: url("../imgs/big.jpg")  center ;
-	background-size: 175px 280px;
+	background-size: 100% 280px;
 	background-repeat: no-repeat;
 }
 
 .img2{
 	background: url("../imgs/ten.jpg")  center ;	
-	background-size: 175px 280px;
+	background-size: 100% 280px;
 	background-repeat: no-repeat;
 }
 
 .img3{
 	background: url("../imgs/four.jpg")  center ;	
-	background-size: 175px 280px;
+	background-size: 100% 280px;
 	background-repeat: no-repeat;
 }
 
@@ -458,10 +458,60 @@ fieldset, label { margin: 0; padding: 0; }
 }
 
 .img_size{
-	background-size: 145px 200px;
+	background-size: 100% 200px;
 }
 
 .btn-group.open .dropdown-toggle{
 	background: transparent !important;
 	box-shadow: none !important; 
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	.block_display{
+		display: none;
+	}
+
+	.carousel_control1{	
+		left: 20px;
+		width: 35px;
+		height: 35px;
+		line-height: 30px;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);	
+	}
+
+	.carousel_control2{	
+		right: 23px !important;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);	
+	}
+
+	.img_card1{
+		top: 0;
+		left: 0;
+	}
+
+	.collection{
+		padding: 0;
+	}
+
+	.circular_like{
+		display: none;
+	}
+
+	.img_card{
+		top:0;
+		left: 0;
+	}
+
+	.mobile_padding{
+		padding: 15%;
+	}
+
+	.heading{
+		padding-left: 5%;
+	}
+
+	.card_heading{
+		margin-top: 0;
+	}
 }
